@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thought Figma Design</title>
+    <link rel="stylesheet" href="DT.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+
+    <header class="navbar">
+      <div class="navbar-left">
+        
+        <!-- Placeholder for the logo -->
+        <img class="logo"src="logo.svg" alt="logo">
+      </div>
+      <div class="navbar-right">
+        <button class="nav-icon"><i class="fas fa-home"></i></button>
+        <button class="nav-icon"><i class="fas fa-bell"></i></button>
+        <button class="nav-icon"><i class="fas fa-cog"></i></button>
+        <img src="profile.jpeg" alt="Profile" class="profile-pic">
+        <button class="nav-icon"><i class="fas fa-ellipsis-v"></i></button>
+      </div>
+    </header>
+
+    <div class="journey-board">
+      <!-- Sidebar -->
+      <div id="sidebar" class="sidebar">
+        <div class="sidebar-toggle">&#8250;</div>
+        <div class="sidebar-content">
+          <span>Journey Board</span>
+          <div class="dropdown">
+            <ul>
+              <li>Technical Project Management</li>
+              <li>Structure your pointers</li>
+              <li>6A Method</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+
+      <!--Header section-->
+      <div class="header-container">
+        <h1 class="title">Technical Project Management</h1>
+        <button class="submit-task-button">Submit task</button>
+    </div>
+    <div class="description-container">
+        <h2 class="description-title">Explore the world of management</h2>
+        <p class="description-text">
+            As a project manager, you play an important role in leading a project through initiation, planning, execution, 
+            monitoring, controlling, and completion. How? Do you want to manage each and every step of your life?
+        </p>
+    </div>
+
+    <div class="container-group">
+    <!--First container-->
+
+
+        <div class="container">
+          <div class="header">
+            <h1>Structure your Pointers</h1>
+            <i class="fas fa-info-circle"></i>
+          </div>
+          <div class="description">
+            <p><strong>Description :</strong> Write a 300 - 400 word article from your thread. Publish your understanding and showcase your understanding to the entire world.</p>
+          </div>
+
+          <iframe width="620" height="415" src="https://www.youtube.com/embed/GkDup40sXjA?si=o5uJY-5aw2W2gaCo" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         
+        </div>
+
+         <!--second continer-->
+
+        <div class="container">
+          <div class="header">
+            <h1>Threadbuild</h1>
+            <i class="fas fa-info-circle"></i>
+          </div>
+          <div class="description">
+            <p><strong>Description:</strong> Watch the video and threadbuild, and jot out key threads while watching the video</p>
+          </div>
+          <div class="content">
+            <div class="section">
+              <div class="section-header">
+                <span>Thread A</span>
+                <i class="fas fa-chevron-up"></i>
+              </div>
+              <div class="section-body">
+                <div class="sub-sections">
+                  <div class="sub-section">
+                    <label for="sub-thread-1">Sub thread 1</label>
+                    <textarea id="sub-thread-1" placeholder="Enter Text here"></textarea>
+                  </div>
+                  <div class="sub-section">
+                    <label for="sub-interpretation-1">Sub Interpretation 1</label>
+                    <textarea id="sub-interpretation-1" placeholder="Enter Text here"></textarea>
+                  </div>
+                </div>
+                <div class="tools">
+                  <div class="icon-buttons">
+                    <i class="fas fa-lightbulb"></i>
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-question-circle"></i>
+                    <i class="fas fa-arrow-down"></i>
+                  </div>
+                  <div class="dropdowns">
+                    <select>
+                      <option>Select Categ</option>
+                    </select>
+                    <select>
+                      <option>Select Proces</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="sub-thread-btn">
+                  <i class="fas fa-plus-circle"></i> Sub-thread
+                </button>
+                <div class="summary">
+                  <label for="summary">Summary for Thread A</label>
+                  <textarea id="summary" placeholder="Enter Text Here"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--third Contener -->
+
+        <div class="container">
+          <div class="header">
+            <h1>Structure your Pointers</h1>
+            <i class="fas fa-info-circle"></i>
+          </div>
+          <div class="description">
+            <p><strong>Description :</strong> Write a 300 - 400 word article from your thread. Publish your understanding and showcase your understanding to the entire world.</p>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" id="title" placeholder="Enter title here">
+            </div>
+            <div class="form-group">
+              <label for="content">Content</label>
+              <div class="content-editor">
+                <div class="toolbar">
+                  <div class="left-tools">
+                    <div class="extra-toolbar">
+                      <ul>
+                        <li>File</li>
+                        <li>Edit</li>
+                        <li>View</li>
+                        <li>Insert</li>
+                        <li>Format</li>
+                        <li>Tools</li>
+                        <li>Table</li>
+                        <li>Help</li>
+                      </ul>
+                    </div>
+                    <button><i class="fas fa-undo"></i></button>
+                    <button><i class="fas fa-redo"></i></button>
+                    <button><i class="fas fa-expand"></i></button>
+                    <select>
+                      <option>Paragraph</option>
+                      <!-- Additional options can be added here -->
+                    </select>
+                  </div>
+                  
+                </div>
+                <textarea id="content" placeholder="Write your content here..."></textarea>
+                
+              </div>
+            </div>
+          </form>
+        </div>
+
+       <!--Fourth Contener-->
+        <div class="container">
+          <div class="header">
+            <h1>4SA Method</h1>
+            <i class="fas fa-info-circle"></i>
+          </div>
+          <div class="description">
+            <p><strong>Description :</strong> To Explore more read more</p>
+          </div>
+          <div class="content">
+            <div class="section">
+              <div class="section-header">
+                <span>Introduction</span>
+                <i class="fas fa-chevron-up"></i>
+              </div>
+              <div class="section-body">
+                <p>The 4SA Method, How to bring an idea into progress?</p>
+                <span class="see-more">See More</span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="section-header">
+                <span>Thread A</span>
+                <i class="fas fa-chevron-up"></i>
+              </div>
+              <div class="section-body">
+                <p>How are you going to develop your strategy? Which method are you going to use to develop a strategy? What if the project is lengthy?</p>
+                <span class="see-more">See More</span>
+              </div>
+            </div>
+            <div class="example">
+              <h4>Example 1</h4>
+              <p>You have a concept, How will you put it into progress?</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+        
+        
+
+
+        <!-- Notification Panel -->
+        <div id="notification-panel" class="notification-panel">
+          <div class="notice">
+            N<br>O<br>T<br>I<br>C<br>E<br><br>B<br>O<br>A<br>R<br>D
+          </div>
+          <div class="notification-toggle">&#8249;</div>
+          <div class="notification-content">
+            <h2>Notification</h2>
+            <ul>
+              <li>New message from Project Manager</li>
+              <li>Task Deadline Approaching</li>
+              <li>Team Meeting at 3 PM</li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-panel">
+          <button class="help-btn">?</button>
+          <button class="calendar-btn">📅</button>
+          <button class="info-btn">ℹ️</button>
+        </div>
+      </div>
+      </div>
+
+      <script src="DT.js"></script>
+    </body>
+  </html>
